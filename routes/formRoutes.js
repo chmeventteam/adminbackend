@@ -35,7 +35,7 @@ const sendEmail = async (toEmail, subject, text, html,filename,Path) => {
   });
 console.log(toEmail);
   const mailOptions = {
-    from: 'chmeventteam@outlook.com',
+    from: 'chmeventteam2@outlook.com',
     to: toEmail,
     subject,
     text : text,
